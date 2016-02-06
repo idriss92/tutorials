@@ -235,6 +235,26 @@
             ],
             "id": "c1a8786d-c57d-4c7c-b717-20f7e9e55d64",
             "type": "until"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Say",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "Done !"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "68a9e499-2e6c-4e8c-97c3-97621ea9288d",
+            "type": "action"
           }
         ],
         "id": "985538a1-e24a-4474-b277-cd5aa4847c64",
