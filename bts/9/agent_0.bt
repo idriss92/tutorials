@@ -22,7 +22,7 @@
               "label": ""
             },
             "properties": {
-              "name": "Pompei",
+              "name": "Prompt",
               "inputParams": [
                 {
                   "key": "message",
