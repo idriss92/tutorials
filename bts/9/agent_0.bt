@@ -133,26 +133,6 @@
                         "type": "action"
                       },
                       {
-                        "activated": false,
-                        "metadata": {
-                          "label": ""
-                        },
-                        "properties": {
-                          "op1": {
-                            "type": "entityKnowledge",
-                            "value": "answer"
-                          },
-                          "op2": {
-                            "type": "string",
-                            "value": ""
-                          },
-                          "op": "!="
-                        },
-                        "children": [],
-                        "id": "938d7737-354e-4cce-9f9a-29041cd20d29",
-                        "type": "condition"
-                      },
-                      {
                         "activated": true,
                         "metadata": {
                           "label": ""
