@@ -255,6 +255,20 @@
             "children": [],
             "id": "68a9e499-2e6c-4e8c-97c3-97621ea9288d",
             "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Stall",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "495e3861-c8d0-4e99-a6c9-0538b83688dc",
+            "type": "action"
           }
         ],
         "id": "985538a1-e24a-4474-b277-cd5aa4847c64",
