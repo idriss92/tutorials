@@ -81,6 +81,32 @@
             "children": [],
             "id": "0a16a673-890c-462c-bd8d-8451b4c948b5",
             "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "GetCityWeather",
+              "inputParams": [
+                {
+                  "key": "cityName",
+                  "type": "entityKnowledge",
+                  "value": "answer"
+                }
+              ],
+              "outputParams": [
+                {
+                  "key": "weather",
+                  "type": "entityKnowledge",
+                  "value": "weather"
+                }
+              ]
+            },
+            "children": [],
+            "id": "473fc52e-8d62-4c2e-84d0-fde9d7996db4",
+            "type": "action"
           }
         ],
         "id": "862b47da-7ab4-4d30-8bfe-f3bdef159cba",
