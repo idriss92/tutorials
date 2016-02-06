@@ -24,7 +24,7 @@
             "properties": {
               "destination": "result",
               "op": {
-                "type": "globalKnowledge",
+                "type": "entityKnowledge",
                 "value": "capitals"
               }
             },
