@@ -8,7 +8,28 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {
+          "name": "Say",
+          "inputParams": [
+            {
+              "key": "message",
+              "type": "string",
+              "value": "Hello my dear"
+            }
+          ],
+          "outputParams": []
+        },
+        "children": [],
+        "id": "0a16a673-890c-462c-bd8d-8451b4c948b5",
+        "type": "action"
+      }
+    ],
     "id": "965e40d4-849c-4a92-b99b-ed01917d94e4"
   }
 ]
