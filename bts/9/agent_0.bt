@@ -150,14 +150,14 @@
                 },
                 "properties": {
                   "name": "Say",
-                  "inputParams": [
+                  "inputParams": [],
+                  "outputParams": [
                     {
-                      "key": "message",
+                      "key": "weather",
                       "type": "entityKnowledge",
-                      "value": "answer"
+                      "value": "weather.description"
                     }
-                  ],
-                  "outputParams": []
+                  ]
                 },
                 "children": [],
                 "id": "f340e46b-25de-4477-a78c-22b14d6b995a",
