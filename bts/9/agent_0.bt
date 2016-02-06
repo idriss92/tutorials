@@ -55,12 +55,12 @@
             },
             "properties": {
               "op1": {
-                "type": "boolean",
-                "value": "false"
+                "type": "globalKnowledge",
+                "value": "answer.country"
               },
               "op2": {
-                "type": "boolean",
-                "value": "true"
+                "type": "string",
+                "value": "Belgium"
               },
               "op": "=="
             },
