@@ -133,7 +133,7 @@
                     },
                     {
                       "key": "cityWeather",
-                      "type": "globalKnowledge",
+                      "type": "entityKnowledge",
                       "value": "weather"
                     }
                   ],
