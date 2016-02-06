@@ -104,7 +104,7 @@
                     "type": "action"
                   },
                   {
-                    "activated": false,
+                    "activated": true,
                     "metadata": {
                       "label": ""
                     },
