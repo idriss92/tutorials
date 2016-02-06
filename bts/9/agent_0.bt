@@ -54,13 +54,13 @@
               "label": ""
             },
             "properties": {
-              "active": "false"
+              "active": "true"
             },
             "children": [
               {
                 "activated": true,
                 "metadata": {
-                  "label": ""
+                  "label": "check if weather is matching \"scattered clouds\""
                 },
                 "properties": {
                   "op1": {
