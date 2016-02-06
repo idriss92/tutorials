@@ -107,6 +107,65 @@
             "children": [],
             "id": "473fc52e-8d62-4c2e-84d0-fde9d7996db4",
             "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "statusCondition": "failsIfAnyFails",
+              "retryPolicy": "propagateToRunning"
+            },
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "DisplayCityWeather",
+                  "inputParams": [
+                    {
+                      "key": "cityName",
+                      "type": "entityKnowledge",
+                      "value": "answer"
+                    },
+                    {
+                      "key": "cityWeather",
+                      "type": "globalKnowledge",
+                      "value": "weather"
+                    }
+                  ],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "e839079d-21da-4a78-9d8d-400a632ac860",
+                "type": "action"
+              },
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "Say",
+                  "inputParams": [
+                    {
+                      "key": "message",
+                      "type": "entityKnowledge",
+                      "value": "answer"
+                    }
+                  ],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "f340e46b-25de-4477-a78c-22b14d6b995a",
+                "type": "action"
+              }
+            ],
+            "id": "33a5c4f3-e7ee-4adb-8991-01fd89f4b599",
+            "type": "parallel"
           }
         ],
         "id": "862b47da-7ab4-4d30-8bfe-f3bdef159cba",
