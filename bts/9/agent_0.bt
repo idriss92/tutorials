@@ -154,7 +154,7 @@
                     {
                       "key": "message",
                       "type": "entityKnowledge",
-                      "value": "weather"
+                      "value": "weather.description"
                     }
                   ],
                   "outputParams": []
