@@ -14,20 +14,77 @@
         "metadata": {
           "label": ""
         },
-        "properties": {
-          "name": "Say",
-          "inputParams": [
-            {
-              "key": "message",
-              "type": "string",
-              "value": "Hello my dear"
-            }
-          ],
-          "outputParams": []
-        },
-        "children": [],
-        "id": "0a16a673-890c-462c-bd8d-8451b4c948b5",
-        "type": "action"
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Pompei",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "What's your name ?"
+                }
+              ],
+              "outputParams": [
+                {
+                  "key": "answer",
+                  "type": "entityKnowledge",
+                  "value": "answer"
+                }
+              ]
+            },
+            "children": [],
+            "id": "1819b57d-840f-40b1-9777-1c647b687417",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "entityKnowledge",
+                "value": "answer"
+              },
+              "op2": {
+                "type": "string",
+                "value": ""
+              },
+              "op": "!="
+            },
+            "children": [],
+            "id": "938d7737-354e-4cce-9f9a-29041cd20d29",
+            "type": "condition"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Say",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "entityKnowledge",
+                  "value": "answer"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "0a16a673-890c-462c-bd8d-8451b4c948b5",
+            "type": "action"
+          }
+        ],
+        "id": "862b47da-7ab4-4d30-8bfe-f3bdef159cba",
+        "type": "sequence"
       }
     ],
     "id": "965e40d4-849c-4a92-b99b-ed01917d94e4"
