@@ -24,7 +24,7 @@
             "properties": {
               "destination": "result",
               "op": {
-                "type": "entityKnowledge",
+                "type": "globalKnowledge",
                 "value": "capitals"
               }
             },
@@ -134,7 +134,7 @@
                         {
                           "key": "message",
                           "type": "entityKnowledge",
-                          "value": "answer"
+                          "value": "answer.name"
                         }
                       ],
                       "outputParams": []
